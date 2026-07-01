@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Kanz ul Ilm International | Quran Morphology Portal</title>
+  <meta name="description" content="Privacy Policy for the Word-by-Word Quran Morphology Portal by Kanz ul Ilm International. Learn how we collect, use, and protect your information.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://morphology.kanzulilm.com/privacy-policy.html">
+  <meta property="og:title" content="Privacy Policy — Kanz ul Ilm International">
+  <meta property="og:description" content="How we handle your data, cookies, and advertising on the Quran Morphology Portal.">
+  <meta property="og:url" content="https://morphology.kanzulilm.com/privacy-policy.html">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --deep-blue:       #0d1b3e;
+      --deep-blue-light: #16285c;
+      --gold:            #c9a227;
+      --gold-light:      #e8c547;
+      --ink:             #1a1a2e;
+      --ink-soft:        #4a4a6a;
+      --off-white:       #f9f8f4;
+      --border-soft:     #e8e4d9;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Source Serif 4', Georgia, serif;
+      background: var(--off-white);
+      color: var(--ink);
+      line-height: 1.85;
+      font-size: 1rem;
+    }
+
+    /* ── COOKIE BANNER ── */
+    #cookieBanner {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--deep-blue);
+      color: rgba(238,241,248,0.92);
+      padding: 18px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      z-index: 9999;
+      box-shadow: 0 -4px 20px rgba(0,0,0,0.3);
+      flex-wrap: wrap;
+    }
+    #cookieBanner p {
+      font-size: 0.88rem;
+      line-height: 1.6;
+      flex: 1;
+      min-width: 260px;
+    }
+    #cookieBanner a { color: var(--gold); }
+    .cookie-btns { display: flex; gap: 10px; flex-shrink: 0; }
+    .btn-accept {
+      background: var(--gold);
+      color: var(--deep-blue);
+      border: none;
+      padding: 9px 22px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 0.85rem;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .btn-accept:hover { background: var(--gold-light); }
+    .btn-decline {
+      background: transparent;
+      color: rgba(238,241,248,0.7);
+      border: 1px solid rgba(238,241,248,0.3);
+      padding: 9px 22px;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .btn-decline:hover { border-color: rgba(238,241,248,0.6); color: #fff; }
+
+    /* ── HEADER ── */
+    header {
+      background: var(--deep-blue);
+      padding: 0 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.35);
+    }
+    .header-brand {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--gold);
+      text-decoration: none;
+    }
+    .header-brand:hover { color: var(--gold-light); }
+    .header-back {
+      font-size: 0.82rem;
+      color: rgba(238,241,248,0.78);
+      text-decoration: none;
+      border: 1px solid rgba(238,241,248,0.22);
+      padding: 5px 16px;
+      border-radius: 4px;
+      transition: all 0.2s;
+    }
+    .header-back:hover { background: rgba(255,255,255,0.1); color: #fff; }
+
+    /* ── HERO ── */
+    .hero {
+      background: linear-gradient(135deg, var(--deep-blue) 0%, var(--deep-blue-light) 100%);
+      padding: 64px 40px 52px;
+      text-align: center;
+      border-bottom: 3px solid var(--gold);
+    }
+    .hero-eyebrow {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 16px;
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(1.9rem, 4vw, 2.7rem);
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.22;
+      margin-bottom: 18px;
+    }
+    .hero-sub {
+      font-size: 0.95rem;
+      color: rgba(238,241,248,0.72);
+      max-width: 560px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+    .hero-meta {
+      margin-top: 20px;
+      font-size: 0.8rem;
+      color: rgba(238,241,248,0.5);
+    }
+    .hero-meta span { color: var(--gold); }
+
+    /* ── AD SLOT ── */
+    .ad-wrap { background: #f0ede6; padding: 4px 0; }
+    .ad-slot {
+      max-width: 728px;
+      margin: 0 auto;
+      min-height: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.7rem;
+      color: #bbb;
+      text-align: center;
+      padding: 6px;
+    }
+
+    /* ── LAYOUT ── */
+    .page-wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 52px 24px 100px;
+    }
+
+    /* ── TOC ── */
+    .toc {
+      background: #ffffff;
+      border: 1px solid var(--border-soft);
+      border-left: 4px solid var(--gold);
+      border-radius: 6px;
+      padding: 26px 32px;
+      margin-bottom: 52px;
+    }
+    .toc-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--deep-blue);
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+    }
+    .toc ol { padding-left: 20px; columns: 2; column-gap: 32px; }
+    .toc li { margin-bottom: 7px; break-inside: avoid; }
+    .toc a {
+      color: var(--deep-blue-light);
+      text-decoration: none;
+      font-size: 0.88rem;
+    }
+    .toc a:hover { color: var(--gold); }
+
+    /* ── SECTIONS ── */
+    .policy-section {
+      margin-bottom: 52px;
+      padding-bottom: 44px;
+      border-bottom: 1px solid var(--border-soft);
+    }
+    .policy-section:last-of-type { border-bottom: none; }
+    .section-tag {
+      display: inline-block;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 8px;
+    }
+    .policy-section h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: var(--deep-blue);
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border-soft);
+    }
+    .policy-section p { margin-bottom: 16px; color: var(--ink); font-size: 0.97rem; }
+    .policy-section h3 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.05rem;
+      color: var(--deep-blue);
+      margin: 28px 0 10px;
+    }
+    .policy-section ul, .policy-section ol {
+      padding-left: 22px;
+      margin-bottom: 16px;
+    }
+    .policy-section li { margin-bottom: 9px; font-size: 0.97rem; }
+
+    /* ── CALLOUT BOX ── */
+    .callout {
+      background: rgba(201,162,39,0.07);
+      border-left: 3px solid var(--gold);
+      border-radius: 4px;
+      padding: 16px 22px;
+      margin: 20px 0;
+      font-size: 0.93rem;
+    }
+    .callout.blue {
+      background: rgba(13,27,62,0.05);
+      border-left-color: var(--deep-blue-light);
+    }
+
+    /* ── DATA TABLE ── */
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 0.88rem;
+    }
+    .data-table th {
+      background: var(--deep-blue);
+      color: rgba(238,241,248,0.92);
+      padding: 10px 14px;
+      text-align: left;
+      font-weight: 600;
+    }
+    .data-table td {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border-soft);
+      vertical-align: top;
+    }
+    .data-table tr:nth-child(even) td { background: #f4f2ec; }
+
+    /* ── CONTACT BOX ── */
+    .contact-box {
+      background: var(--deep-blue);
+      color: rgba(238,241,248,0.9);
+      border-radius: 8px;
+      padding: 32px 36px;
+      margin-top: 12px;
+    }
+    .contact-box h3 {
+      font-family: 'Playfair Display', Georgia, serif;
+      color: var(--gold);
+      font-size: 1.15rem;
+      margin-bottom: 16px;
+    }
+    .contact-box p { font-size: 0.93rem; margin-bottom: 9px; }
+    .contact-box a { color: var(--gold-light); }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--deep-blue);
+      color: rgba(238,241,248,0.65);
+      text-align: center;
+      padding: 30px 24px;
+      font-size: 0.82rem;
+      line-height: 2;
+    }
+    footer a { color: var(--gold); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 640px) {
+      header { padding: 0 16px; }
+      .hero { padding: 44px 18px 36px; }
+      .page-wrap { padding: 32px 16px 80px; }
+      .toc ol { columns: 1; }
+      .contact-box { padding: 22px 18px; }
+      #cookieBanner { padding: 16px 18px; }
+      .data-table { font-size: 0.8rem; }
+      .data-table th, .data-table td { padding: 8px 10px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════
+     COOKIE CONSENT BANNER
+     Required for GDPR compliance and AdSense policies
+════════════════════════════════════════════════════ -->
+<div id="cookieBanner" role="dialog" aria-label="Cookie Consent" aria-live="polite">
+  <p>
+    We use cookies to serve relevant advertisements and improve your experience.
+    By clicking <strong>Accept</strong>, you consent to our use of cookies as
+    described in our <a href="#cookies">Cookie Policy</a>. You may decline
+    non-essential cookies; some ad features may then be limited.
+  </p>
+  <div class="cookie-btns">
+    <button class="btn-decline" onclick="setCookieChoice('declined')">Decline</button>
+    <button class="btn-accept" onclick="setCookieChoice('accepted')">Accept All</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════
+     HEADER
+════════════════════════════════════════════════════ -->
+<header>
+  <a href="https://kanzulilm.com" target="_blank" rel="noopener" class="header-brand">
+    Kanz ul Ilm International
+  </a>
+  <a href="index.html" class="header-back">&#8592; Return to Portal</a>
+</header>
+
+<!-- ═══════════════════════════════════════════════════
+     HERO
+════════════════════════════════════════════════════ -->
+<div class="hero">
+  <p class="hero-eyebrow">Legal &amp; Privacy</p>
+  <h1>Privacy Policy</h1>
+  <p class="hero-sub">
+    We believe you deserve to know exactly how this Portal works, what it collects,
+    and why. This policy is written in plain English — not legal jargon — because
+    transparency is a value we hold sincerely.
+  </p>
+  <p class="hero-meta">
+    <span>morphology.kanzulilm.com</span>
+    &nbsp;&middot;&nbsp;
+    Kanz ul Ilm International &nbsp;&middot;&nbsp;
+    &copy; <span id="currentYear"></span>
+  </p>
+</div>
+
+<!-- TOP AD -->
+<div class="ad-wrap">
+  <div class="ad-slot">
+    <!-- AdSense: Leaderboard 728x90 — paste your ad unit here -->
+    Advertisement
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════
+     MAIN CONTENT
+════════════════════════════════════════════════════ -->
+<div class="page-wrap">
+
+  <div class="callout">
+    <strong>Plain summary:</strong> This Portal is a free academic resource.
+    It has no login, no forms, and no database of users. The only data involved
+    is what Google collects through advertising and fonts. We do not sell,
+    share, or profit from your personal data.
+  </div>
+
+  <!-- TABLE OF CONTENTS -->
+  <nav class="toc" aria-label="Contents">
+    <p class="toc-title">Table of Contents</p>
+    <ol>
+      <li><a href="#who-we-are">Who We Are</a></li>
+      <li><a href="#what-we-collect">What We Collect</a></li>
+      <li><a href="#cookies">Cookies &amp; Tracking</a></li>
+      <li><a href="#advertising">Advertising (Google AdSense)</a></li>
+      <li><a href="#third-party">Third-Party Services</a></li>
+      <li><a href="#how-we-use">How We Use Information</a></li>
+      <li><a href="#data-retention">Data Retention</a></li>
+      <li><a href="#sharing">Data Sharing</a></li>
+      <li><a href="#children">Children's Privacy</a></li>
+      <li><a href="#your-rights">Your Rights</a></li>
+      <li><a href="#gdpr">GDPR (European Users)</a></li>
+      <li><a href="#ccpa">CCPA (California Users)</a></li>
+      <li><a href="#security">Security</a></li>
+      <li><a href="#changes">Policy Changes</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ol>
+  </nav>
+
+  <!-- 1 -->
+  <section class="policy-section" id="who-we-are">
+    <p class="section-tag">Section 01</p>
+    <h2>Who We Are</h2>
+    <p>
+      This Privacy Policy applies to the <strong>Word-by-Word Quran Morphology
+      Portal</strong> — an independent academic project published at
+      <a href="https://morphology.kanzulilm.com">morphology.kanzulilm.com</a>.
+    </p>
+    <p>
+      The Portal is developed, maintained, and directed by
+      <strong>Mufti Syed Muhammad Usman Bukhari</strong>, founding director of
+      <strong>Kanz ul Ilm International</strong> — an Islamic educational research
+      institution established in 2009. Our work is motivated by a sincere commitment
+      to making the Quranic sciences accessible to students, researchers, and
+      seekers of knowledge across the world, regardless of their background
+      or resources.
+    </p>
+    <p>
+      This Portal presents the complete word-by-word morphological and grammatical
+      analysis of the Holy Qur'an — all 114 Surahs, 6,236 verses, and over 80,000
+      words — entirely free of charge. Operational costs are partially met through
+      minimal advertising revenue, as disclosed fully in this policy.
+    </p>
+    <p>
+      For the purposes of data protection law, <strong>Kanz ul Ilm
+      International</strong> is the data controller for this Portal.
+    </p>
+  </section>
+
+  <!-- 2 -->
+  <section class="policy-section" id="what-we-collect">
+    <p class="section-tag">Section 02</p>
+    <h2>What We Collect</h2>
+    <p>
+      We want to be completely honest here: <strong>this Portal does not have
+      a backend server, a database, or a user account system.</strong>
+      It is a single, self-contained HTML file. We do not actively collect
+      your name, email address, or any personal details.
+    </p>
+    <p>
+      However, when you visit any website, certain technical information is
+      exchanged as a normal part of how the internet works. This includes:
+    </p>
+
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Type of Data</th>
+          <th>Who Collects It</th>
+          <th>Why</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>IP address</td>
+          <td>Cloudflare / hosting provider</td>
+          <td>Security, routing, and abuse prevention</td>
+        </tr>
+        <tr>
+          <td>Browser &amp; device type</td>
+          <td>Cloudflare / Google</td>
+          <td>Page rendering and ad targeting</td>
+        </tr>
+        <tr>
+          <td>Pages visited, time on site</td>
+          <td>Google AdSense</td>
+          <td>Ad performance measurement</td>
+        </tr>
+        <tr>
+          <td>Geographic region (country)</td>
+          <td>Google / Cloudflare</td>
+          <td>Localized ads and CDN routing</td>
+        </tr>
+        <tr>
+          <td>Referring URL</td>
+          <td>Cloudflare / Google</td>
+          <td>Understanding how visitors find us</td>
+        </tr>
+        <tr>
+          <td>Font requests</td>
+          <td>Google Fonts</td>
+          <td>Loading Arabic and English typefaces</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="callout">
+      None of this data is collected by us directly or stored on any server
+      we operate. It is processed entirely by the third-party services
+      listed in Section 05.
+    </div>
+  </section>
+
+  <!-- 3 -->
+  <section class="policy-section" id="cookies">
+    <p class="section-tag">Section 03</p>
+    <h2>Cookies &amp; Tracking Technologies</h2>
+    <p>
+      A cookie is a small file that a website places on your device to remember
+      information about your visit. This Portal itself sets <strong>no
+      first-party cookies</strong> of its own. However, the third-party services
+      we use — particularly Google AdSense — do set cookies.
+    </p>
+    <h3>Cookies Set by Third Parties</h3>
+    <ul>
+      <li>
+        <strong>Google Advertising Cookies</strong> — used to show you
+        relevant ads based on your browsing history across the web.
+        These are the most significant cookies on this Portal.
+      </li>
+      <li>
+        <strong>Google Fonts Cookies</strong> — a minimal technical cookie
+        that may be set when the Arabic and English fonts are loaded from
+        Google's servers.
+      </li>
+      <li>
+        <strong>Cloudflare Cookies</strong> — used for security, performance,
+        and bot detection (e.g. the <code>__cf_bm</code> cookie).
+      </li>
+    </ul>
+    <h3>Your Cookie Choices</h3>
+    <p>
+      When you first visit this Portal, a consent banner appears at the bottom
+      of your screen. You may choose to Accept or Decline non-essential cookies.
+      You can also manage or delete cookies at any time through your browser
+      settings. Most browsers allow you to:
+    </p>
+    <ul>
+      <li>View which cookies are set</li>
+      <li>Block all or certain cookies</li>
+      <li>Delete cookies when you close your browser</li>
+    </ul>
+    <p>
+      Please note that declining advertising cookies will not remove ads from
+      the Portal — it will only make them less relevant to your interests.
+      For industry-wide opt-out tools, visit
+      <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener">
+      aboutads.info</a> or
+      <a href="https://www.youronlinechoices.eu/" target="_blank" rel="noopener">
+      youronlinechoices.eu</a>.
+    </p>
+  </section>
+
+  <!-- 4 -->
+  <section class="policy-section" id="advertising">
+    <p class="section-tag">Section 04</p>
+    <h2>Advertising (Google AdSense)</h2>
+    <p>
+      To keep this academic resource free and publicly accessible, this Portal
+      displays advertisements through <strong>Google AdSense</strong>, operated
+      by Google LLC (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA).
+    </p>
+    <p>
+      We want to be transparent: advertising revenue helps cover the real costs
+      of server hosting and technical maintenance. Without it, maintaining a
+      free public resource of this scale would not be sustainable. We have chosen
+      a minimal advertising approach — small, unobtrusive ad placements that do
+      not interfere with the scholarly content.
+    </p>
+    <div class="callout">
+      <strong>Important:</strong> Kanz ul Ilm International does not control
+      which specific advertisements appear, nor does it have access to any
+      individual-level data that Google collects through its advertising system.
+    </div>
+    <h3>How Interest-Based Advertising Works</h3>
+    <p>
+      Google AdSense may use cookies and similar technologies to show you
+      advertisements based on your previous browsing activity — on this Portal
+      and on other websites across the internet. This is called interest-based
+      or personalized advertising.
+    </p>
+    <h3>How to Opt Out</h3>
+    <ul>
+      <li>
+        Visit <a href="https://adssettings.google.com/" target="_blank" rel="noopener">
+        Google Ads Settings</a> to manage or opt out of personalized ads.
+      </li>
+      <li>
+        Visit <a href="https://www.networkadvertising.org/choices/" target="_blank" rel="noopener">
+        NAI Opt-Out</a> for broader industry opt-out.
+      </li>
+      <li>
+        Install the
+        <a href="https://support.google.com/ads/answer/7395996" target="_blank" rel="noopener">
+        Google Analytics Opt-out Browser Add-on</a> if applicable.
+      </li>
+    </ul>
+    <p>
+      For full details on how Google uses data when you visit partner sites,
+      please read:
+      <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">
+      How Google uses data from sites that use our services</a>.
+    </p>
+  </section>
+
+  <!-- MID AD -->
+  <div class="ad-wrap" style="margin: 0 -24px;">
+    <div class="ad-slot">
+      <!-- AdSense: Responsive Rectangle — paste your ad unit here -->
+      Advertisement
+    </div>
+  </div>
+
+  <!-- 5 -->
+  <section class="policy-section" id="third-party">
+    <p class="section-tag">Section 05</p>
+    <h2>Third-Party Services</h2>
+    <p>
+      This Portal relies on the following trusted third-party services to
+      function correctly. Each has its own privacy policy, which we encourage
+      you to review.
+    </p>
+    <table class="data-table">
+      <thead>
+        <tr><th>Service</th><th>Purpose</th><th>Privacy Policy</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Google AdSense</strong></td>
+          <td>Advertisement delivery</td>
+          <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">View</a></td>
+        </tr>
+        <tr>
+          <td><strong>Google Fonts</strong></td>
+          <td>Arabic &amp; English typefaces</td>
+          <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">View</a></td>
+        </tr>
+        <tr>
+          <td><strong>Cloudflare</strong></td>
+          <td>Hosting, CDN &amp; security</td>
+          <td><a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">View</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      We have no control over the data practices of these services and are not
+      responsible for their privacy policies or content.
+    </p>
+  </section>
+
+  <!-- 6 -->
+  <section class="policy-section" id="how-we-use">
+    <p class="section-tag">Section 06</p>
+    <h2>How We Use Information</h2>
+    <p>
+      The limited information processed in connection with this Portal is used
+      only for the following purposes:
+    </p>
+    <ul>
+      <li>Delivering and maintaining the Portal and its academic content</li>
+      <li>Displaying advertisements to partially fund operational costs</li>
+      <li>Ensuring the security, stability, and performance of the Portal</li>
+      <li>Understanding aggregate, anonymous usage trends to improve content</li>
+      <li>Complying with applicable laws and legal obligations</li>
+    </ul>
+    <p>
+      We do not use any data for marketing, user profiling, or any purpose
+      unrelated to the free provision of this academic resource.
+    </p>
+  </section>
+
+  <!-- 7 -->
+  <section class="policy-section" id="data-retention">
+    <p class="section-tag">Section 07</p>
+    <h2>Data Retention</h2>
+    <p>
+      Because this Portal does not operate its own database or server-side
+      data storage, <strong>we do not retain any personal data ourselves.</strong>
+    </p>
+    <p>
+      Data retained by third-party services is governed by their own retention
+      policies. As a general reference:
+    </p>
+    <ul>
+      <li>
+        <strong>Google:</strong> Retains advertising interaction data for
+        up to 18 months by default, though this is configurable in your
+        Google account settings.
+      </li>
+      <li>
+        <strong>Cloudflare:</strong> Retains server logs for a limited period
+        (typically up to 24 hours for free plans) for security and performance
+        analysis.
+      </li>
+    </ul>
+    <p>
+      Cookies stored on your own device persist for varying durations
+      depending on the cookie type — from session cookies that expire
+      when you close your browser, to persistent cookies that may last
+      up to 2 years (in the case of some advertising cookies). You may
+      delete these at any time through your browser settings.
+    </p>
+  </section>
+
+  <!-- 8 -->
+  <section class="policy-section" id="sharing">
+    <p class="section-tag">Section 08</p>
+    <h2>Data Sharing &amp; Disclosure</h2>
+    <p>
+      Kanz ul Ilm International does not sell, rent, trade, or share
+      personal data with any third party for commercial purposes.
+    </p>
+    <p>We may disclose information only in these narrow circumstances:</p>
+    <ul>
+      <li>
+        <strong>Service Providers:</strong> The third-party services listed
+        in Section 05, which process data only as necessary to provide
+        their services.
+      </li>
+      <li>
+        <strong>Legal Obligation:</strong> When required by applicable law,
+        a valid court order, or governmental authority — and only to the
+        minimum extent necessary.
+      </li>
+      <li>
+        <strong>Protection of Rights:</strong> To protect the rights, safety,
+        or property of Kanz ul Ilm International, our users, or the public,
+        where legally permissible.
+      </li>
+    </ul>
+    <div class="callout blue">
+      In practice, because we hold no personal data ourselves, sharing requests
+      of this nature would be directed to the relevant third-party services
+      (Google, Cloudflare) rather than to us.
+    </div>
+  </section>
+
+  <!-- 9 -->
+  <section class="policy-section" id="children">
+    <p class="section-tag">Section 09</p>
+    <h2>Children's Privacy</h2>
+    <p>
+      This Portal is a scholarly Quranic reference tool suitable for all ages,
+      including young students of Islamic studies. We welcome learners of every
+      background and age.
+    </p>
+    <p>
+      However, we do not knowingly solicit or collect personal information from
+      children under the age of 13, or under the applicable age of digital consent
+      in their jurisdiction (16 in many European countries under GDPR).
+    </p>
+    <p>
+      Since the Portal includes no registration, login, or data submission forms,
+      no personal information is actively requested from any user regardless
+      of age. The advertising displayed through Google AdSense is subject to
+      Google's own policies on child-directed content and COPPA compliance.
+    </p>
+    <p>
+      If you are a parent or guardian and believe your child has submitted
+      personal information through contact email, please write to us at
+      <a href="mailto:info@kanzulilm.com">info@kanzulilm.com</a> and we
+      will take immediate steps to address your concern.
+    </p>
+  </section>
+
+  <!-- 10 -->
+  <section class="policy-section" id="your-rights">
+    <p class="section-tag">Section 10</p>
+    <h2>Your Rights &amp; Choices</h2>
+    <p>
+      Regardless of where you are in the world, you have meaningful choices
+      about your data. Here is what you can do:
+    </p>
+    <ul>
+      <li>
+        <strong>Manage cookies</strong> using your browser settings or the
+        consent banner on this Portal at any time.
+      </li>
+      <li>
+        <strong>Opt out of personalized advertising</strong> through
+        Google Ads Settings or the NAI opt-out tool (see Section 04).
+      </li>
+      <li>
+        <strong>Request information</strong> about any data we hold about you
+        by contacting us at <a href="mailto:info@kanzulilm.com">info@kanzulilm.com</a>.
+      </li>
+      <li>
+        <strong>Lodge a complaint</strong> with your local data protection
+        authority if you believe your rights have not been respected.
+      </li>
+    </ul>
+    <p>
+      Because we do not operate our own user database, most data-rights requests
+      (access, deletion, portability) will need to be directed to Google or
+      Cloudflare directly, as they are the entities that actually hold
+      any data about your visit.
+    </p>
+  </section>
+
+  <!-- 11 -->
+  <section class="policy-section" id="gdpr">
+    <p class="section-tag">Section 11</p>
+    <h2>European Users — GDPR</h2>
+    <p>
+      If you are located in the European Economic Area (EEA), the United Kingdom,
+      or Switzerland, the General Data Protection Regulation (GDPR) or applicable
+      national equivalents apply to the processing of your personal data.
+    </p>
+    <h3>Legal Basis for Processing</h3>
+    <ul>
+      <li>
+        <strong>Legitimate Interest</strong> — We have a legitimate interest in
+        serving advertising to fund this free academic resource, balanced against
+        your right to privacy. Where this applies, we rely on the consent
+        mechanism (cookie banner) to give you meaningful control.
+      </li>
+      <li>
+        <strong>Consent</strong> — For non-essential cookies and personalized
+        advertising, we rely on your consent as expressed through the cookie
+        consent banner displayed when you first visit the Portal.
+      </li>
+      <li>
+        <strong>Legal Obligation</strong> — Where we are required to process
+        data to comply with applicable law.
+      </li>
+    </ul>
+    <h3>Your GDPR Rights</h3>
+    <p>Under the GDPR you have the right to:</p>
+    <ul>
+      <li><strong>Access</strong> — obtain a copy of personal data held about you</li>
+      <li><strong>Rectification</strong> — correct inaccurate data</li>
+      <li><strong>Erasure</strong> — request deletion of your data ("right to be forgotten")</li>
+      <li><strong>Restriction</strong> — limit how your data is used</li>
+      <li><strong>Portability</strong> — receive your data in a machine-readable format</li>
+      <li><strong>Objection</strong> — object to processing based on legitimate interest</li>
+      <li><strong>Withdraw Consent</strong> — at any time, without affecting prior processing</li>
+    </ul>
+    <p>
+      To exercise any of these rights, please contact us at
+      <a href="mailto:info@kanzulilm.com">info@kanzulilm.com</a>. You also have
+      the right to lodge a complaint with your national supervisory authority.
+    </p>
+  </section>
+
+  <!-- 12 -->
+  <section class="policy-section" id="ccpa">
+    <p class="section-tag">Section 12</p>
+    <h2>California Residents — CCPA</h2>
+    <p>
+      If you are a California resident, the California Consumer Privacy Act
+      (CCPA) as amended by the California Privacy Rights Act (CPRA) grants you
+      specific rights regarding your personal information.
+    </p>
+    <h3>Your CCPA Rights</h3>
+    <ul>
+      <li><strong>Right to Know</strong> — what personal information is collected, used, or shared</li>
+      <li><strong>Right to Delete</strong> — request deletion of personal information we hold</li>
+      <li><strong>Right to Opt-Out</strong> — opt out of the sale or sharing of personal information</li>
+      <li><strong>Right to Non-Discrimination</strong> — we will not discriminate against you for exercising these rights</li>
+    </ul>
+    <div class="callout">
+      <strong>Do Not Sell or Share My Personal Information:</strong> Kanz ul Ilm
+      International does not sell personal information. We do share limited
+      technical data with Google for advertising purposes, which may constitute
+      "sharing" under CCPA. You may opt out of this through Google Ads Settings
+      or the cookie consent banner on this Portal.
+    </div>
+    <p>
+      To exercise your CCPA rights, contact us at
+      <a href="mailto:info@kanzulilm.com">info@kanzulilm.com</a> with the
+      subject line "CCPA Request." We will respond within 45 days.
+    </p>
+  </section>
+
+  <!-- 13 -->
+  <section class="policy-section" id="security">
+    <p class="section-tag">Section 13</p>
+    <h2>Security</h2>
+    <p>
+      We take the security of this Portal seriously and have implemented
+      appropriate technical measures, including:
+    </p>
+    <ul>
+      <li>
+        <strong>HTTPS encryption</strong> — all data exchanged between your
+        browser and this Portal is encrypted in transit using TLS.
+      </li>
+      <li>
+        <strong>Cloudflare security layer</strong> — protection against DDoS
+        attacks, malicious bots, and other web threats.
+      </li>
+      <li>
+        <strong>No server-side database</strong> — since the Portal holds no
+        user data of its own, there is no database to breach.
+      </li>
+    </ul>
+    <p>
+      While we have taken reasonable precautions, no method of transmission
+      over the internet is entirely secure. We encourage you to use an
+      up-to-date browser and to exercise your own good judgment when
+      sharing any information online.
+    </p>
+  </section>
+
+  <!-- 14 -->
+  <section class="policy-section" id="changes">
+    <p class="section-tag">Section 14</p>
+    <h2>Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time to reflect changes
+      in our practices, the services we use, or applicable legal requirements.
+      When we do, the updated policy will be published at this URL.
+    </p>
+    <p>
+      We encourage you to review this policy periodically. Your continued use
+      of the Portal after any update constitutes your acceptance of the
+      revised policy.
+    </p>
+    <p>
+      If a change is significant — for example, if we were to begin collecting
+      new categories of personal data — we will make reasonable efforts to
+      draw your attention to it when you next visit the Portal.
+    </p>
+  </section>
+
+  <!-- 15 -->
+  <section class="policy-section" id="contact">
+    <p class="section-tag">Section 15</p>
+    <h2>Contact Us</h2>
+    <p>
+      We genuinely welcome your questions and feedback. If anything in this
+      policy is unclear, or if you wish to exercise any of your privacy rights,
+      please reach out to us. We are a small, dedicated academic team and we
+      read every message.
+    </p>
+    <div class="contact-box">
+      <h3>Kanz ul Ilm International</h3>
+      <p><strong>Director:</strong> Mufti Syed Muhammad Usman Bukhari</p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:info@kanzulilm.com">info@kanzulilm.com</a>
+      </p>
+      <p>
+        <strong>Website:</strong>
+        <a href="https://kanzulilm.com" target="_blank" rel="noopener">kanzulilm.com</a>
+      </p>
+      <p>
+        <strong>Portal:</strong>
+        <a href="https://morphology.kanzulilm.com" target="_blank" rel="noopener">morphology.kanzulilm.com</a>
+      </p>
+      <p style="margin-top:16px; font-size:0.8rem; color:rgba(238,241,248,0.45);">
+        Established 2009 &middot; Academic Islamic Research &middot;
+        Serving students &amp; scholars worldwide
+      </p>
+    </div>
+  </section>
+
+  <!-- BOTTOM AD -->
+  <div class="ad-wrap" style="margin: 0 -24px;">
+    <div class="ad-slot">
+      <!-- AdSense: Leaderboard 728x90 — paste your ad unit here -->
+      Advertisement
+    </div>
+  </div>
+
+</div><!-- /page-wrap -->
+
+<!-- ═══════════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════════ -->
+<footer>
+  &copy; <span id="footerYear"></span>
+  <a href="https://kanzulilm.com" target="_blank" rel="noopener">Kanz ul Ilm International</a>
+  &nbsp;&middot;&nbsp;
+  <a href="index.html">Quran Morphology Portal</a>
+  &nbsp;&middot;&nbsp;
+  <a href="privacy-policy.html">Privacy Policy</a>
+  &nbsp;&middot;&nbsp;
+  <a href="sitemap.html">Site Map</a><br>
+  Developed and Directed by: Mufti Syed Muhammad Usman Bukhari, Kanz ul Ilm
+</footer>
+
+<!-- ═══════════════════════════════════════════════════
+     SCRIPTS
+════════════════════════════════════════════════════ -->
+<script>
+  // Dynamic copyright year — updates automatically every year
+  var yr = new Date().getFullYear();
+  document.getElementById('currentYear').textContent = yr;
+  document.getElementById('footerYear').textContent = yr;
+
+  // Cookie consent banner logic
+  function setCookieChoice(choice) {
+    try { localStorage.setItem('cookieConsent', choice); } catch(e) {}
+    document.getElementById('cookieBanner').style.display = 'none';
+    // If user accepted, AdSense personalization can proceed normally.
+    // If declined, you can add logic here to load non-personalized ads.
+  }
+
+  // Hide banner if user already chose
+  (function() {
+    var saved;
+    try { saved = localStorage.getItem('cookieConsent'); } catch(e) {}
+    if (saved === 'accepted' || saved === 'declined') {
+      document.getElementById('cookieBanner').style.display = 'none';
+    }
+  })();
+</script>
+
+</body>
+</html>
